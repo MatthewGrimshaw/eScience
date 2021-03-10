@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "provisioningPackage" : {
+          "value": "replaceprovisioningPackage"
+      },
+      "userUPN": {
+          "value":"replaceUserUpn"
+      },
+      "scriptURI": {
+        "value":"replaceScriptURI"
+    },
+      "adminUsername": {
+        "value": "xadmin"
+      },
+      "adminPassword": {
+        "value": "<Local Admin Password goes here>"
+      },
+      "dnsLabelPrefix": {
+        "value": "<VM Name goes here"
+      },
+      "vmName":{
+        "value": "<VmName goes here>"
+      }
+    }
+  }

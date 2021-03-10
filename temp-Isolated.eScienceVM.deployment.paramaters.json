@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "provisioningPackage" : {
+          "value": "https://gormenghastescience.blob.core.windows.net/provisioningpackages/gormenghast.zip?se=2021-03-09T12%3A38Z&sp=rw&sv=2018-11-09&sr=b&sig=8dLt9PxC7g/l/V101LcQGZ/bWZSdPCqg3hNFYE2DaK8%3D"
+      },
+      "userUPN": {
+          "value":"meganb@gormenghast.onmicrosoft.com"
+      },
+      "scriptURI": {
+        "value":"https://gormenghastescience.blob.core.windows.net/provisioningpackages/RunProvisioningPackage.ps1?se=2021-03-09T12%3A38Z&sp=rw&sv=2018-11-09&sr=b&sig=IMhZwZsanKfLGTKELRZrss4ts%2BnENFnh1stCKgUb%2Bdg%3D"
+    },
+      "adminUsername": {
+        "value": "xadmin"
+      },
+      "adminPassword": {
+        "value": "?DevOps19731973"
+      },
+      "dnsLabelPrefix": {
+        "value": "escience2"
+      },
+      "vmName":{
+        "value": "escience2"
+      }
+    }
+  }
+
+
